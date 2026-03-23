@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 import analyzeRoutes from './routes/analyze.js';
 
 dotenv.config();
-console.log(process.env.GROQ_API_KEY)
 
 const app = express();
 
